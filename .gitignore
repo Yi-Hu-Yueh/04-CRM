@@ -27,3 +27,14 @@ secret.key
 *.zip
 *.bak
 *.log
+
+# Publish only the approved standalone program and its accompanying files.
+!/CRM-Windows-x64-1.2.1/
+/CRM-Windows-x64-1.2.1/*
+!/CRM-Windows-x64-1.2.1/CRM/
+/CRM-Windows-x64-1.2.1/CRM/*
+!/CRM-Windows-x64-1.2.1/CRM/CRM.exe
+!/CRM-Windows-x64-1.2.1/CRM/release.json
+!/CRM-Windows-x64-1.2.1/CRM/THIRD-PARTY-NOTICES.txt
+!/CRM-Windows-x64-1.2.1/CRM/使用說明.txt
+/CRM-Windows-x64-1.2.1/CRM/data/
