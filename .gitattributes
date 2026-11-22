@@ -1,0 +1,3 @@
+# Preserve exact bytes of reviewed source, versioned documents and release manifests.
+* -text
+*.docx binary

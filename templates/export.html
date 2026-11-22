@@ -1,0 +1,8 @@
+{% extends 'base.html' %}{% block content %}
+<a class="breadcrumb" href="/">← 返回工作總覽</a>
+<div class="page-heading"><div><p class="eyebrow">獨立系統</p><h1>匯出獨立可執行系統</h1><p class="muted">下載後，在另一台 Windows 電腦直接執行。</p></div></div>
+<section class="panel form-panel"><h2>Windows 獨立系統包</h2><p>版本 {{ version }} · Windows x64 · 不需要另外安裝 Python。</p>
+<ol><li>下載並完整解壓縮 ZIP。</li><li>雙擊 <strong>CRM.exe</strong>，首次設定自己的帳號與密碼。</li><li>瀏覽器會自動開啟 CRM；資料保存在該系統自己的 data 資料夾。</li></ol>
+<div class="notice"><b>匯出範圍：全新系統</b><p>包含程式與執行所需元件；不含目前帳號、密碼、客戶資料、業務歷程或密鑰。這個按鈕不會變更目前系統的資料，也不會備份 data。</p></div>
+<form method="post">{% csrf_token %}{% for field in form %}{{ field }}{% endfor %}<div class="submission"><div class="form-actions"><button class="primary" type="submit">下載獨立系統 ZIP</button><a class="button" href="/">取消</a></div><div class="feedback" role="alert" aria-live="polite">{{ form.non_field_errors }}{% for field in form %}{{ field.errors }}{% endfor %}</div></div></form>
+</section>{% endblock %}

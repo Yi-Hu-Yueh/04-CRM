@@ -1,0 +1,286 @@
+{
+  "version": "1.2.1",
+  "phase": "Phase 1",
+  "authorization": "開始開發系統",
+  "requirements_revision": "1.1",
+  "design_revision": "1.0",
+  "inputs": {
+    "AGENTS.md": "cc84ed852d1d694c4408ea2107671f0b75244d643d560d4c4a96398f419360a5",
+    "04-CRM-REVIEW-PHASE1-REQUIREMENTS-v1.1.md": "04d21e514b4f9a1a0ea12bd7292ee04a8c8265009e0cb1d12e09e0f31a426061",
+    "04-CRM-REVIEW-PHASE1-DESIGN-REVIEW-v1.0.md": "9a278f74e7ebb66a6d6fa7b13c5ef9ecdb4c1a97545e54577137330bb838bcc2",
+    "04-CRM-DEV-PHASE1-FUNCTIONAL-SPEC-v1.0.md": "5f32f4e756412550380aa3ce3dbb3b9c2b4a7027bc34021d9261c8cb4eb84bd2",
+    "04-CRM-DEV-PHASE1-SYSTEM-DESIGN-v1.0.md": "eaa27e1ee9f40bc5c870ff51207ccd620fdc172dfcfe5db2767408acfdb6fbb1",
+    "04-CRM-DEV-PHASE1-DESIGN-VERIFICATION-v1.0.md": "b2cfa08b4ddd6931a5a41af198c328e2f7372720c473a67ff73481ba85a14bf8"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 198,
+      "sha256": "e90ca5cceaf603f625bc5983e7675d374d9dafd2ab3dd4092ca52e245229fe7d"
+    },
+    {
+      "path": "04-CRM-DEV-PHASE1-IMPLEMENTATION-v1.0.md",
+      "bytes": 10648,
+      "sha256": "bf9710f118518d0671ce68018a88ed35c796182a8d6ad9ca2adab25ec4c54411"
+    },
+    {
+      "path": "04-CRM-DEV-STANDALONE-EXPORT-v1.2.1.md",
+      "bytes": 7848,
+      "sha256": "635850cc8e2dc76b7c2d860a69661ed600d77e968a57f20e19a7853645da1b47"
+    },
+    {
+      "path": "04-CRM-DEV-STARTUP-FIX-v1.1.md",
+      "bytes": 2866,
+      "sha256": "820546b91ff24dce74d1508a468b9ccbcd8840a59150bbf5fbca77f1cec2f330"
+    },
+    {
+      "path": "config/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "config/settings.py",
+      "bytes": 3055,
+      "sha256": "4f159f7f85730f173d448f1846f00aa342a1d41a1391ab3a1800739e9d206f3b"
+    },
+    {
+      "path": "config/urls.py",
+      "bytes": 774,
+      "sha256": "065477bdbe2a53f3091e8daf37480ab940962ee92aca825dd3e4722e633b53aa"
+    },
+    {
+      "path": "config/wsgi.py",
+      "bytes": 164,
+      "sha256": "c1ed832c2a0786feb5149ed553edb97a0dec3abf91f510bb5ebedf9214833c53"
+    },
+    {
+      "path": "crm/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "crm/auth.py",
+      "bytes": 416,
+      "sha256": "b401a628e154454d14c2341691decfd82958a58397282bed6cf63e12f2caea26"
+    },
+    {
+      "path": "crm/forms.py",
+      "bytes": 7150,
+      "sha256": "b3ecc03186e5c8890f220181bde7bb64ad54fddf825dcd324a912f0c20bfd808"
+    },
+    {
+      "path": "crm/management/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "crm/management/commands/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "crm/management/commands/bootstrap.py",
+      "bytes": 1581,
+      "sha256": "0cd5e68541bcddf91ebd4f96515fa3b113eae4d6bd3a534272d3ceaf785099ca"
+    },
+    {
+      "path": "crm/management/commands/needs_bootstrap.py",
+      "bytes": 283,
+      "sha256": "b18060f3a65c1397cc56c0f444da56694bc8906e3e85a4f13d509ef981de029b"
+    },
+    {
+      "path": "crm/migrations/0001_initial.py",
+      "bytes": 22473,
+      "sha256": "4f2a927fcfc5a98870703e0bd994b3d57f4149e8aecc4364a6e4faebfb143c89"
+    },
+    {
+      "path": "crm/migrations/0002_alter_company_deactivation_event_and_more.py",
+      "bytes": 4506,
+      "sha256": "49cdce963db56f577ac16eba8eb4f99bec2272f4809f30f84046d17338bb5f72"
+    },
+    {
+      "path": "crm/migrations/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "crm/models.py",
+      "bytes": 12492,
+      "sha256": "68955ead1abe8e6df20f99d41a784114ce52ec8abe45758a2198e429381dc8d8"
+    },
+    {
+      "path": "crm/packaging.py",
+      "bytes": 2905,
+      "sha256": "80ec2ec0cfffb286343b8f7f7370d53f78c728c42521130f911c109d8546038b"
+    },
+    {
+      "path": "crm/release.py",
+      "bytes": 22,
+      "sha256": "dae9675814c148bfe97251ba7aba544b3011d08097ac30ff69796f9484671adc"
+    },
+    {
+      "path": "crm/services.py",
+      "bytes": 22126,
+      "sha256": "373e78e9f9baac0e284e36cb78b6197b4f0b793b2659e01dd0b99fb343fadfb9"
+    },
+    {
+      "path": "crm/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "crm/tests/test_packaging.py",
+      "bytes": 7501,
+      "sha256": "922f9f94569504b99be228d175a4fdafde5faee239106ffd194e0fbedd079745"
+    },
+    {
+      "path": "crm/tests/test_phase1.py",
+      "bytes": 27666,
+      "sha256": "01798afae133f9ce4cbc84002c2932655305a8befc3c56f7f545a4bcdb999cef"
+    },
+    {
+      "path": "crm/views.py",
+      "bytes": 16804,
+      "sha256": "5e563ffde29f3002b2841c966e48cb8f0a4363bdbf72da25cb6960962df96130"
+    },
+    {
+      "path": "manage.py",
+      "bytes": 225,
+      "sha256": "9e4823ee4867cc99f1c00af8ab0c0fb46538b812f2d06502492f1eab453bfa08"
+    },
+    {
+      "path": "portable/THIRD-PARTY-NOTICES.txt",
+      "bytes": 521787,
+      "sha256": "1a14f4a58397f9309af83ef9c782a2f35c93d9242454ef91d6fd0437784ee69a"
+    },
+    {
+      "path": "portable/使用說明.txt",
+      "bytes": 1233,
+      "sha256": "9fc2a85cfef7e510ab7b4baa29a373f834f79fcf2bc00fc4dde88395897ec464"
+    },
+    {
+      "path": "portable_main.py",
+      "bytes": 4448,
+      "sha256": "6e36caf4d228cfa1d05090ae02cb736faf5d4db51fb9140ec43e6116c114d349"
+    },
+    {
+      "path": "qa/browser_acceptance.py",
+      "bytes": 10035,
+      "sha256": "981874ae3f9686cef483eb83c2ca717b71be848441fa71dc9d011b3329eed449"
+    },
+    {
+      "path": "qa/fixture.py",
+      "bytes": 3597,
+      "sha256": "20c249178543ebcdc7a0fe115b5736b2ee73dac53b3e6010b87f69d6de6c33ec"
+    },
+    {
+      "path": "qa/portable_acceptance.py",
+      "bytes": 8852,
+      "sha256": "38ea81f93112ed30e623054558e6e005c188fda972cc204d0cd56da0abebc100"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4286,
+      "sha256": "159d3c108808d22e8fc64f012d53976b1da3871a1f915fdbf8afe820252357bc"
+    },
+    {
+      "path": "requirements-build.txt",
+      "bytes": 175,
+      "sha256": "95473382eba255608f61d8bec83b7de93e30ae5af4e53b85fa3b63e231b600da"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 83,
+      "sha256": "b37cf7ba479f08107f49a5989bb990f03a2859e8915a2819f2122e1550d5c107"
+    },
+    {
+      "path": "Start-CRM.cmd",
+      "bytes": 107,
+      "sha256": "cf94ba517d103c314687ef9c460ca05604637965c3756bdab0aa5ca22a4c28f0"
+    },
+    {
+      "path": "Start-CRM.ps1",
+      "bytes": 1586,
+      "sha256": "ae90a9fe43735854b72a355f54021e2ed12d6e75f9ef9f70d338a2366fcf5e6d"
+    },
+    {
+      "path": "static/app.css",
+      "bytes": 9362,
+      "sha256": "3ac8fb6cf316e896f7bd2213d2728817c2ef8db18d234329058476b6f78a25b8"
+    },
+    {
+      "path": "static/app.js",
+      "bytes": 374,
+      "sha256": "da1e42bb9d43708bb8eeb240b9310f33d01cd79faf2b44e4abf0b5fb93f348a6"
+    },
+    {
+      "path": "templates/base.html",
+      "bytes": 1199,
+      "sha256": "66eb5f4c66992a25be59b0744907c77a9b0107d08352821bc5b571031ea2fba5"
+    },
+    {
+      "path": "templates/dashboard.html",
+      "bytes": 2959,
+      "sha256": "c5b475fec829288f5e4b275f94367e1ca31d3e7789c9e5825ad8c6b2e63791a3"
+    },
+    {
+      "path": "templates/detail.html",
+      "bytes": 2943,
+      "sha256": "f99a6562421d630afe97c61754c5b4f5f992ec69fcd63d9fdf90f6438f87cdcb"
+    },
+    {
+      "path": "templates/error.html",
+      "bytes": 253,
+      "sha256": "598b96c0461907a6717c9cfb64ef898bd6b59497d8a2edc996a7e893a82679eb"
+    },
+    {
+      "path": "templates/export.html",
+      "bytes": 1327,
+      "sha256": "a587f564ff50a3412388bb17bbf092e8cb2e2215af848e80ceb85bd35a705234"
+    },
+    {
+      "path": "templates/form.html",
+      "bytes": 1932,
+      "sha256": "6108c13fa710d495625d79ba6bfc67bdd90a53062bc525dacefff6c967889155"
+    },
+    {
+      "path": "templates/list.html",
+      "bytes": 2684,
+      "sha256": "c7a59c4942285e5b1b49a6c3a92dbe4ce6ee8c9dad5bf115828d93a805d1d325"
+    },
+    {
+      "path": "templates/login.html",
+      "bytes": 1425,
+      "sha256": "6021065019dc1f564183ea54c312870d1899765d3e23eb2c34b3d3265249e373"
+    },
+    {
+      "path": "tools/build_portable.py",
+      "bytes": 3836,
+      "sha256": "a43fe592c48f4d254ce449949fa56b759cf684eed9d2c784d947839ef1e43cde"
+    },
+    {
+      "path": "tools/CRM.spec",
+      "bytes": 2026,
+      "sha256": "bac6a1583211e976dec16d580a876e0f67e2cc5fab978a3c380abf0750de6229"
+    }
+  ],
+  "change": "Owner 授權新增獨立可執行系統匯出按鈕與 Windows EXE",
+  "supersedes": "04-CRM-DEV-PHASE1-IMPLEMENTATION-MANIFEST-v1.1.json",
+  "artifacts": [
+    {
+      "path": "dist/portable/CRM.exe",
+      "bytes": 23297781,
+      "sha256": "b1489d5c081945a66a43dfe5e5ae4ba36fecfb3dd7dbf70f1b98bf1f2d0c1422"
+    },
+    {
+      "path": "dist/portable/CRM-Windows-x64.zip",
+      "bytes": 22881481,
+      "sha256": "7338af30c91863f2a7f4e878193cfbb9a14528bf37bc6cb667b6dd3d42301fa7"
+    },
+    {
+      "path": "dist/portable/release.json",
+      "bytes": 280,
+      "sha256": "98aa42748fe93ed880a25369b51d2ce68d2c7d133a4404e2cebaa4222e68288c"
+    }
+  ]
+}

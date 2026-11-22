@@ -1,0 +1,5 @@
+{% load static %}<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{% block title %}CRM 工作空間{% endblock %}</title><link rel="stylesheet" href="{% static 'app.css' %}"></head>
+<body><aside class="sidebar"><a class="brand" href="/">tiger<span>CRM</span></a><p class="eyebrow">客戶關係工作空間</p><nav><a href="/">◈　工作總覽</a>{% for code,label in nav %}<a href="{% url 'record_list' code %}">{{ label }}</a>{% endfor %}</nav><div class="sidebar-foot"><span class="live-dot"></span> 第一階段工作空間<br><small>Asia/Taipei</small></div></aside>
+<div class="workspace"><header class="topbar"><span>04 / CRM</span><div>{% if can_export_system %}<a class="button" href="{% url 'export_system' %}">匯出獨立可執行系統</a>{% endif %}{{ user }}<form method="post" action="{% url 'logout' %}">{% csrf_token %}<button class="text-button">登出</button></form></div></header><main>{% block content %}{% endblock %}</main><footer>公司、聯絡人與每一段往來，各自保有清楚的脈絡。</footer></div>
+<script src="{% static 'app.js' %}" defer></script></body></html>

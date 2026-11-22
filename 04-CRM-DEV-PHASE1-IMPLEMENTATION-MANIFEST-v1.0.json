@@ -1,0 +1,202 @@
+{
+  "version": "1.0",
+  "phase": "Phase 1",
+  "authorization": "開始開發系統",
+  "requirements_revision": "1.1",
+  "design_revision": "1.0",
+  "inputs": {
+    "AGENTS.md": "cc84ed852d1d694c4408ea2107671f0b75244d643d560d4c4a96398f419360a5",
+    "04-CRM-REVIEW-PHASE1-REQUIREMENTS-v1.1.md": "04d21e514b4f9a1a0ea12bd7292ee04a8c8265009e0cb1d12e09e0f31a426061",
+    "04-CRM-REVIEW-PHASE1-DESIGN-REVIEW-v1.0.md": "9a278f74e7ebb66a6d6fa7b13c5ef9ecdb4c1a97545e54577137330bb838bcc2",
+    "04-CRM-DEV-PHASE1-FUNCTIONAL-SPEC-v1.0.md": "5f32f4e756412550380aa3ce3dbb3b9c2b4a7027bc34021d9261c8cb4eb84bd2",
+    "04-CRM-DEV-PHASE1-SYSTEM-DESIGN-v1.0.md": "eaa27e1ee9f40bc5c870ff51207ccd620fdc172dfcfe5db2767408acfdb6fbb1",
+    "04-CRM-DEV-PHASE1-DESIGN-VERIFICATION-v1.0.md": "b2cfa08b4ddd6931a5a41af198c328e2f7372720c473a67ff73481ba85a14bf8"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 162,
+      "sha256": "96e223fb53c26b86e89615aa34d55a2f3dd1f4ebc9d3722b147f299fa9659469"
+    },
+    {
+      "path": "04-CRM-DEV-PHASE1-IMPLEMENTATION-v1.0.md",
+      "bytes": 10648,
+      "sha256": "bf9710f118518d0671ce68018a88ed35c796182a8d6ad9ca2adab25ec4c54411"
+    },
+    {
+      "path": "config/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "config/settings.py",
+      "bytes": 2388,
+      "sha256": "98315a50ce6ce9e1c208c71744f94914414ff38fa8fcb3c514aee264f5514b9f"
+    },
+    {
+      "path": "config/urls.py",
+      "bytes": 703,
+      "sha256": "b9f81324758e3f970e8de20980aa28e5845508fc9fccb9f21306b551a72949a3"
+    },
+    {
+      "path": "config/wsgi.py",
+      "bytes": 164,
+      "sha256": "c1ed832c2a0786feb5149ed553edb97a0dec3abf91f510bb5ebedf9214833c53"
+    },
+    {
+      "path": "crm/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "crm/auth.py",
+      "bytes": 416,
+      "sha256": "b401a628e154454d14c2341691decfd82958a58397282bed6cf63e12f2caea26"
+    },
+    {
+      "path": "crm/forms.py",
+      "bytes": 7150,
+      "sha256": "b3ecc03186e5c8890f220181bde7bb64ad54fddf825dcd324a912f0c20bfd808"
+    },
+    {
+      "path": "crm/management/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "crm/management/commands/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "crm/management/commands/bootstrap.py",
+      "bytes": 1581,
+      "sha256": "0cd5e68541bcddf91ebd4f96515fa3b113eae4d6bd3a534272d3ceaf785099ca"
+    },
+    {
+      "path": "crm/management/commands/needs_bootstrap.py",
+      "bytes": 283,
+      "sha256": "b18060f3a65c1397cc56c0f444da56694bc8906e3e85a4f13d509ef981de029b"
+    },
+    {
+      "path": "crm/migrations/0001_initial.py",
+      "bytes": 22473,
+      "sha256": "4f2a927fcfc5a98870703e0bd994b3d57f4149e8aecc4364a6e4faebfb143c89"
+    },
+    {
+      "path": "crm/migrations/0002_alter_company_deactivation_event_and_more.py",
+      "bytes": 4506,
+      "sha256": "49cdce963db56f577ac16eba8eb4f99bec2272f4809f30f84046d17338bb5f72"
+    },
+    {
+      "path": "crm/migrations/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "crm/models.py",
+      "bytes": 12492,
+      "sha256": "68955ead1abe8e6df20f99d41a784114ce52ec8abe45758a2198e429381dc8d8"
+    },
+    {
+      "path": "crm/services.py",
+      "bytes": 22126,
+      "sha256": "373e78e9f9baac0e284e36cb78b6197b4f0b793b2659e01dd0b99fb343fadfb9"
+    },
+    {
+      "path": "crm/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "crm/tests/test_phase1.py",
+      "bytes": 27666,
+      "sha256": "01798afae133f9ce4cbc84002c2932655305a8befc3c56f7f545a4bcdb999cef"
+    },
+    {
+      "path": "crm/views.py",
+      "bytes": 14131,
+      "sha256": "c176500f6a72d1052f16a84e5faf9c69a54462d17ac921e4b53bc1141e21918c"
+    },
+    {
+      "path": "manage.py",
+      "bytes": 225,
+      "sha256": "9e4823ee4867cc99f1c00af8ab0c0fb46538b812f2d06502492f1eab453bfa08"
+    },
+    {
+      "path": "qa/browser_acceptance.py",
+      "bytes": 10035,
+      "sha256": "981874ae3f9686cef483eb83c2ca717b71be848441fa71dc9d011b3329eed449"
+    },
+    {
+      "path": "qa/fixture.py",
+      "bytes": 3597,
+      "sha256": "20c249178543ebcdc7a0fe115b5736b2ee73dac53b3e6010b87f69d6de6c33ec"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2994,
+      "sha256": "aa5c66371627b069e25f105cda65e3ab952ce0a91ea3cfd5fae4d9099c0dc3c6"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 66,
+      "sha256": "4509f3fa2ae9e6b51adc88a9d5f4277d34bd80f892e2efe0b5259a8fc2519c17"
+    },
+    {
+      "path": "Start-CRM.cmd",
+      "bytes": 107,
+      "sha256": "cf94ba517d103c314687ef9c460ca05604637965c3756bdab0aa5ca22a4c28f0"
+    },
+    {
+      "path": "Start-CRM.ps1",
+      "bytes": 1168,
+      "sha256": "5ddbe56af7ab4552e6334fbe36a8bad5f5f0bd0bdce062e4058d8e9c5d913c7c"
+    },
+    {
+      "path": "static/app.css",
+      "bytes": 9362,
+      "sha256": "3ac8fb6cf316e896f7bd2213d2728817c2ef8db18d234329058476b6f78a25b8"
+    },
+    {
+      "path": "static/app.js",
+      "bytes": 374,
+      "sha256": "da1e42bb9d43708bb8eeb240b9310f33d01cd79faf2b44e4abf0b5fb93f348a6"
+    },
+    {
+      "path": "templates/base.html",
+      "bytes": 1080,
+      "sha256": "b025a712a2364a3d51878f7e08369e5a3a1df76c843fb23348fbf0787f0dcdca"
+    },
+    {
+      "path": "templates/dashboard.html",
+      "bytes": 2959,
+      "sha256": "c5b475fec829288f5e4b275f94367e1ca31d3e7789c9e5825ad8c6b2e63791a3"
+    },
+    {
+      "path": "templates/detail.html",
+      "bytes": 2943,
+      "sha256": "f99a6562421d630afe97c61754c5b4f5f992ec69fcd63d9fdf90f6438f87cdcb"
+    },
+    {
+      "path": "templates/error.html",
+      "bytes": 253,
+      "sha256": "598b96c0461907a6717c9cfb64ef898bd6b59497d8a2edc996a7e893a82679eb"
+    },
+    {
+      "path": "templates/form.html",
+      "bytes": 1932,
+      "sha256": "6108c13fa710d495625d79ba6bfc67bdd90a53062bc525dacefff6c967889155"
+    },
+    {
+      "path": "templates/list.html",
+      "bytes": 2684,
+      "sha256": "c7a59c4942285e5b1b49a6c3a92dbe4ce6ee8c9dad5bf115828d93a805d1d325"
+    },
+    {
+      "path": "templates/login.html",
+      "bytes": 1425,
+      "sha256": "6021065019dc1f564183ea54c312870d1899765d3e23eb2c34b3d3265249e373"
+    }
+  ]
+}
