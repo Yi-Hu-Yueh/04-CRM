@@ -10,6 +10,9 @@ __pycache__/
 04-CRM-REVIEW.md
 04-CRM-REVIEW-COMPACT.md
 conversation-assets/
+# Keep development/review requirements, designs, handoffs and reports local.
+/04-CRM-DEV-*
+/04-CRM-REVIEW-*
 build/
 dist/
 *.spec
